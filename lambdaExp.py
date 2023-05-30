@@ -21,14 +21,14 @@ from functools import reduce
 #Map function: map(func, seq)
 a = [1,2,3,4,5]
 b = map(lambda x: x*2, a)
-print("b: ", list(b))
+print("map b: ", list(b))
 
 c = [x*2 for x in a]
 print("c: ", c) #same as b
 
 #Filter function: filter(func, seq)
 b = filter(lambda x: x%2==0, a)
-print("b: ", list(b))
+print("filter b: ", list(b))
 
 c = [x for x in a if x%2==0]
 print("c: ", c)
@@ -36,4 +36,4 @@ print("c: ", c)
 #Reduce function: reduce(func, seq)
 a = [1,2,3,4]
 product_a = reduce(lambda x,y: x*y, a)
-print("product_a: ", product_a)
+print("reduce a", product_a)
