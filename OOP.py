@@ -20,7 +20,9 @@ class jugu(rohan): #jugu inherits from rohan
 #Encapsulation: typically use single underscore for protected/non-public, and
 #double underscore for private, and python internally changes the name referred to loosely as name mangling
 
-
+#polymorphism is when 2 different kinds of type animal, like dog and cat have the same method
+#animalSound, with the same name, but different implementations, polymorphism allows you to call
+#the proper method of the class rather than the parent's method
 
 def main():
     rohan1 = rohan(20, "Rohan")
