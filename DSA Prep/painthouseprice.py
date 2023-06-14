@@ -2,7 +2,7 @@ costs = [[17,2,17],[16,16,5],[14,3,19]]
 costs2 = [1,2,3,4]
 
 def minCost(costs):
-    
+    print('AHHHH')
 
 
 
